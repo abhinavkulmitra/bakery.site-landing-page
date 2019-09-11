@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Kulmitra's Bakery
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+    </head>
+    <body >
+       
+        <header>
+               
+            <nav>
+                
+                <div class="start clearfix">
+                        
+                                <img src="Images/new.png" class="logo">
+               
+                    
+                                <a href="#" class="icon"  onclick="slideshow()"> <i class="fa fa-align-justify"></i></a>
+                    <ul class="list-main" id="check-class">
+                        <li><a href="#">Cake Delivery</a></li>
+                        <li><a href="#">How to order</a></li>
+                        <li><a href="#">Check More</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main-content">
+
+                    <h1>WELCOME TO <SPAN class="colorChange">KULMITRA'S BAKERY Store</SPAN>.<br>
+                        Get your favorite cake here. 
+                    </h1>
+                    <br>
+                    <a href="#" class="btn btn-full">Click to Order</a>
+                    <a href="#" class="btn btn-nav">Show more</a>
+                    
+            </div>
+
+            
+
+        </header>
+        <script type="text/javascript">
+         
+         function slideshow(){
+             var x=document.getElementById('check-class');
+             if(
+                x.style.display ==="none"){
+                x.style.display="block"; 
+                }
+             else{
+                 x.style.display="none";
+             }   
+         }
+             
+
+         
+        </script>
+    </body>
+
+</html>
